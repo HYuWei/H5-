@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>中秋</title>
+    <meta name="viewport" content="width=640">
+    <link rel="stylesheet" href="material/1.css">
+</head>
+<body>
+<div>
+    <div>
+    </div>
+    <span class="span1">月</span>
+    <span class="span2">圆</span>
+    <span class="span3">中</span>
+    <span class="span4">秋</span>
+    <span class="span5">快</span>
+    <span class="span6">乐</span>
+    <img src="material/img/shang.png" alt="" class="shang">
+    <img src="material/img/taiyan.png" alt="" class="taiyan">
+    <img src="material/img/ren.png" alt="" class="ren">
+    <img src="material/img/tudi.png" alt="" class="tudi">
+    <img src="material/img/shuye.png" alt="" class="shuye">
+    <img src="material/img/hehua.png" alt="" class="hehua">
+    <img src="material/img/hehua1.png" alt="" class="hehua1">
+    <img src="material/img/xx.png" alt="" class="xx">
+    <img src="material/img/xx1.png" alt="" class="xx1">
+    <img src="material/img/dl.png" alt="" class="dl">
+    <img src="material/img/dl3.png" alt="" class="dl3">
+    <img src="material/img/dl1.png" alt="" class="dl1">
+    <img src="material/img/dl4.png" alt="" class="dl4">
+    <img src="material/img/guang.png" alt="" class="guang">
+    <img src="material/img/guang.png" alt="" class="guang1">
+    <img src="material/img/guang.png" alt="" class="guang2">
+
+    <img src="material/img/aaaaa.png" alt="" class="aaaaa">
+    <img src="material/img/tuzi.png" alt="" width="215" height="382" class="tuzi">
+    <img src="material/img/yun.png" alt="" class="yun" width="116" height="49">
+    <img src="material/img/yun.png" alt="" class="yun1" width="116" height="49">
+    <img src="material/img/yun.png" alt="" class="yun2" width="46" >
+    <img src="material/img/hhh.png" alt="" class="hhh" width="619">
+    <img src="material/img/hailang.png" alt="" class="hailang" width="720">
+    <img src="material/img/tuzi1.png" alt="" class="tuzi1">
+    <img src="material/img/shang.png" alt="" class="shang1">
+    <audio src="material/img/yulan-5b87c053cb05c5696.mp3" autoplay loop ></audio>
+    <img src="material/img/music_off_8d94020.png" alt="" class="mupng">
+    <img src="material/img/music_c0fda01.gif" alt="" class="mugif" width="55" height="55">
+</div>
+
+<script>
+    var A=document.getElementsByTagName("audio")[0];
+    var B=document.getElementsByClassName("mugif")[0];
+    var C=document.getElementsByClassName("mupng")[0];
+    var i=0;
+    B.onclick=function () {
+        if(i==0)
+        {
+            A.pause();
+            i=1;
+          C.style.animation="none";
+        }
+        else if(i==1)
+        {
+            A.play();
+            C.style.animation="a11 3s linear infinite";
+            i=0;
+        }
+    }
+</script>
+</body>
+</html>

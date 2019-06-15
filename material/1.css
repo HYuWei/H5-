@@ -1,0 +1,184 @@
+*{margin: 0;padding: 0;background: black}
+
+div{width: 620px;height:960px;background: black;margin:auto;position: relative;overflow: hidden; }
+
+
+span{position: absolute;background: transparent;}
+div div{width: 256px;height: 256px;border-radius: 50%;background: url("img/yuan.png");position: absolute;animation: a5 5s 0.5s linear backwards,a11 20s 2s linear infinite,a24 2s 5.5s forwards;left: 50%;top: 20px;transform-origin:center;}
+.span1{top: 270px;left:150px;font-size: 56px;color: yellow;font-family: 华文行楷;animation: a25 2s 0.4s linear backwards,a13 3s 6.5s linear infinite,a4 2s 6.5s forwards;z-index: 20}
+.span2{top: 300px;left:220px;font-size: 63px;color: yellow;font-family: 华文行楷;animation: a5 2s 0.8s backwards linear,a13 3s 6.5s linear infinite,a21 2s 6.5s forwards linear;z-index: 20}
+.span3{top: 250px;left:290px;font-size: 78px;color: yellow;font-family: 华文行楷;animation: a20 2s 0.5s backwards linear,a13 3s 6.5s linear infinite,a31 2s 6.5s forwards;z-index: 20}
+.span4{top: 250px;left:420px;font-size: 45px;color: yellow;font-family: 华文行楷;animation: a9 2s 0.9s backwards linear,a13 3s 6.5s linear infinite;z-index: 20}
+.span5{top: 360px;left:100px;font-size: 150px;color: yellow;font-family: 华文行楷;animation:a8 2s 6.5s linear backwards,a32 5s 6s linear infinite alternate;z-index: 20}
+.span6{top: 300px;left:400px;font-size: 120px;color: yellow;font-family: 华文行楷;animation:a8 2s 6.5s linear backwards,a32 4s 6s linear infinite alternate;z-index: 20}
+.shang{position: absolute;animation: a5 2s 0.5s backwards linear,a8 2s 0.5s backwards,a13 1s  linear infinite alternate;background: transparent}
+.taiyan{position: absolute;left: -10px;bottom: 110px;z-index: 2;background: transparent;animation: a5 2s 0.5s backwards,a8 3s 0.5s backwards,a21 2s 5.5s forwards;}
+.ren{position: absolute;right:5px;bottom: 100px;z-index: 3;background: transparent;animation: a5 2s 0.8s backwards,a9 2.5s 0.8s backwards linear,a3 3s 5.5s forwards;}
+.shuye{position: absolute;left: 0;top: 100px;background: transparent;animation: a5 2s 0.5s backwards,a10 1s 1s backwards,a3 2s 5.5s forwards;}
+.hehua{position: absolute;right: 0;bottom: 0;z-index: 3;background: transparent;animation: a5 2s 0.5s backwards,a9 3s 0.5s backwards linear,a4 2s 5.5s forwards;}
+.hehua1{position: absolute;left: 0;bottom: 0;z-index: 4;background: transparent;animation: a5 2s 0.5s backwards,a10 3s 1s backwards,a3 2.5s 5.5s forwards;}
+.tudi{position: absolute;left: 0;bottom: 160px;z-index: 4;background: transparent;animation: a5 2s 0.5s backwards,a10 2.5s 0.5s backwards,a22 2.5s 5.5s forwards;transform-origin: left;}
+.xx{position: absolute;left: 0;bottom: 200px;background: transparent;z-index: 4;animation: a5 2s 0.5s backwards,a8 1s 1.5s backwards,a2 2s 5.5s forwards;}
+.xx1{position: absolute;left: 50px;bottom: 250px;background: transparent;z-index: 4;animation: a5 2s 0.5s backwards,a8 2s 0.5s backwards,a2 2s 5.5s forwards ;}
+.dl{position: absolute;left: 310px;bottom: 450px;z-index: 4;background: transparent;animation: a5 2s 0.5s backwards,a8 2s 1.5s backwards,a14 1.5s linear infinite alternate,a2 2s 5.5s forwards ;}
+.dl3{position: absolute;left: 0;bottom:544px; background: transparent;animation: a5 2s 0.5s backwards,a12 2s 0.8s backwards,a14 3s linear infinite alternate,a23 3s 5.5s linear forwards;}
+.dl1{position: absolute;left: 93px;bottom: 514px;z-index: 4;background: transparent;animation: a5 2s 0.5s backwards,a8 2s 1s backwards,a14 2s 1s linear infinite alternate,a2 2.5s 5.5s forwards; }
+.dl4{position: absolute;right: 20px;top:-30px;background: transparent;animation: a5 2s 0.5s backwards,a8 2s 1s backwards,a14 5s linear infinite alternate,a2 2.3s 6s forwards;}
+.guang{position: absolute;left: 0;top:30px;background: transparent;animation: a5 2s 0.5s backwards,a2 2.3s 6s forwards;}
+.guang1{position: absolute;left:30px;top:20px;background: transparent;animation: a5 2s 0.5s backwards,a2 2.3s 6s forwards;}
+.guang2{position: absolute;left:80px;top:40px;background: transparent;animation: a5 2s 0.5s backwards,a2 2.3s 6s forwards;}
+
+
+
+.aaaaa{position: absolute;top: 120px;background: transparent;z-index: 1;animation: a5 2s 6s backwards}
+.tuzi{position: absolute;top:-70px;left: -20px;background: transparent;z-index: 1;animation: a8 3s 6.5s backwards}
+.yun{position: absolute;top: 300px;left: 40px;z-index: 1;animation: a10 3s 6.5s backwards,a26 3s 6s linear infinite alternate;background: transparent}
+.yun1{position: absolute;top:330px;right: 0;z-index: 1;animation: a19 2s 6.5s backwards,a27 10s 6s linear infinite alternate;background: transparent}
+.yun2{position: absolute;top: 400px;right:50px;z-index: 1;animation: a19 3s 6.5s backwards,a27 20s 6s linear infinite alternate;background: transparent}
+.hhh{position: absolute;bottom: 0;background: transparent;z-index: 0;animation: a20 2s 6.5s backwards,a28 5s 6s linear infinite alternate}
+.hailang{position: absolute;bottom: -30px;background: transparent;margin-left: -30px;animation: a15 5s 6s backwards,a30 3s 6.5s linear infinite alternate;}
+.tuzi1{position: absolute;bottom: 200px;left: 50%;margin-left: -87px;background: transparent; animation: a16 3s 6s backwards,a29 3s 6.5s linear infinite alternate;}
+.shang1{position: absolute;animation: a5 2s 6s backwards;background: transparent}
+.mupng{position: absolute;right: 10px;top: 35px;background: transparent;animation: a11 3s linear infinite;}
+.mugif{position: absolute;right: 0;top:30px;background: transparent}
+
+@keyframes a1 {
+    0%{opacity: 1}
+    50%{opacity:0;transform: translatey(-900px)}
+    100%{opacity: 0;transform: translatey(0)}
+}
+@keyframes a2 {
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+
+@keyframes a3 {
+     0%{opacity: 1;transform: translatex(0)}
+
+     100%{opacity: 0;transform: translatex(-900px)}
+}
+@keyframes a4 {
+    0%{opacity: 1;transform: translatex(0)}
+    100%{opacity: 0;transform: translatex(220px)}
+}
+@keyframes a5 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+@keyframes a6 {
+    0%{opacity: 0;}
+    70%{opacity: 1;}
+    100%{opacity: 1;}
+}
+@keyframes a7 {
+0%{transform:translatex(0);opacity: 1}
+    50%{transform: translatex(256px);opacity: 0.8}
+    100%{transform:translatex(256px);opacity: 0}
+}
+@keyframes a8 {
+    0%{opacity: 0;transform:scale(0,0)}
+    100%{opacity: 1;transform:scale(1,1)}
+}
+@keyframes a9 {
+    0%{opacity: 0;transform:translatex(400px)}
+    50%{opacity: 0.8;transform:translatex(200px)}
+    100%{opacity: 1;transform:translatex(0)}
+}
+
+@keyframes a10 {
+    0%{opacity: 0;transform:translatex(-200px)}
+    100%{opacity: 1;transform:translatex(0)}
+}
+@keyframes a11 {
+    0%{transform: rotate(0deg)}
+    100%{transform:rotate(360deg)}
+}
+@keyframes a12 {
+    0%{transform:translatex(-45px)}
+    100%{transform:translatex(0)}
+}
+@keyframes a13 {
+    0%{opacity: 0.4}
+    50%{opacity: 1}
+    100%{opacity:0.4 }
+}
+@keyframes a14 {
+    0%{opacity: 0.7}
+    50%{opacity: 1}
+    100%{opacity:0.7 }
+}
+
+@keyframes a15 {
+    0%{opacity: 0;transform:translatey(205px)}
+    100%{opacity:1;transform:translatey(0) }
+}
+@keyframes a16 {
+    0%{opacity: 0;transform:translatey(395px)}
+    100%{opacity:1;transform:translatey(0) }
+}
+@keyframes a19 {
+0%{transform:translatex(200px)}
+    100%{transform: translatex(0)}
+}
+@keyframes a20 {
+    0%{transform: translatey(1000px)}
+    100%{transform: translatey(0px)}
+}
+@keyframes a21 {
+0%{opacity: 1;transform:rotatex(0);}
+    100%{opacity: 0;transform:rotatex(360deg)}
+}
+@keyframes a22 {
+    0%{transform:rotate(0)}
+    100%{transform:rotate(-180deg)}
+}
+@keyframes a23 {
+    0%{transform:scale(1,1);bottom:544px;left: 0}
+    20%{transform: scale(0.8,0.8);bottom:594px;left: -10px}
+    40%{transform: scale(0.6,0.6);bottom:644px;left: -20px}
+    60%{transform: scale(0.4,0.4);bottom:694px;left: -30px;}
+    80%{transform: scale(0.2,0.2);bottom:744px;left: -40px;}
+    100%{transform: scale(0,0);bottom:794px;left: -50px;}
+}
+@keyframes a24 {
+    0%{transform:scale(1,1)}
+    100%{transform:scale(0,0)}
+}
+
+@keyframes a25 {
+    0%{transform: translate(-600px,-500px)}
+    25%{transform: translate(-400px,-300px)}
+    50%{transform: translate(-200px,-150px)}
+    75%{transform: translate(-100px,-75px)}
+    100%{transform: translate(0,0)}
+}
+@keyframes a26 {
+0%{left:40px}
+    100%{left: 240px;}
+}
+@keyframes a27 {
+    0%{right:0}
+    100%{right: 140px;top:280px;}
+}
+@keyframes a28 {
+    0%{top:0}
+    100%{top:-40px;}
+}
+@keyframes a29 {
+    0%{bottom:200px;}
+    100%{bottom:260px;}
+}
+@keyframes a30 {
+    0%{left: -30px;}
+    100%{left: 0;}
+}
+@keyframes a31 {
+    0%{transform:translatex(0)}
+    100%{transform:translatex(-130px)}
+}
+@keyframes a32 {
+    0%{transform: rotate(0deg)}
+    50%{transform: rotate(-20deg)}
+    100%{transform: rotate(20deg)}
+}
